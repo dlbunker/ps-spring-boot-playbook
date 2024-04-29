@@ -1,0 +1,56 @@
+2024-04-15T15:23:29.718-06:00  INFO 8130 --- [main] c.example.contacts.ContactsApplication   : Starting ContactsApplication using Java 17.0.2 with PID 8130 (/Users/dan/Documents/MountainCirque/PluralSight/2024-Boot3Playbook/demos/m6/after/contacts/target/classes started by dan in /Users/dan/Documents/MountainCirque/PluralSight/2024-Boot3Playbook/demos/m6/after/contacts)
+2024-04-15T15:23:29.721-06:00  INFO 8130 --- [main] c.example.contacts.ContactsApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T15:23:31.698-06:00  INFO 8130 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-15T15:23:31.781-06:00  INFO 8130 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2024-04-15T15:23:33.028-06:00  INFO 8130 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2024-04-15T15:23:33.045-06:00  INFO 8130 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-15T15:23:33.046-06:00  INFO 8130 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-04-15T15:23:33.192-06:00  INFO 8130 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-15T15:23:33.192-06:00  INFO 8130 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3347 ms
+2024-04-15T15:23:33.402-06:00  INFO 8130 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-15T15:23:33.572-06:00  INFO 8130 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:contactdb user=${DB_USERNAME}
+2024-04-15T15:23:33.576-06:00  INFO 8130 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-15T15:23:33.600-06:00  INFO 8130 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:contactdb'
+2024-04-15T15:23:34.019-06:00  INFO 8130 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-15T15:23:34.068-06:00  INFO 8130 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-15T15:23:34.072-06:00  INFO 8130 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-04-15T15:23:34.263-06:00  INFO 8130 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-04-15T15:23:34.401-06:00  INFO 8130 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-15T15:23:34.670-06:00  INFO 8130 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-04-15T15:23:35.497-06:00  INFO 8130 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-15T15:23:35.550-06:00  INFO 8130 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T15:23:36.031-06:00  WARN 8130 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-15T15:23:37.050-06:00  INFO 8130 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-04-15T15:23:37.275-06:00  INFO 8130 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2024-04-15T15:23:37.302-06:00  INFO 8130 --- [main] c.example.contacts.ContactsApplication   : Started ContactsApplication in 8.383 seconds (process running for 9.167)
+2024-04-15T15:24:33.672-06:00  INFO 8130 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T15:24:33.856-06:00  INFO 8130 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-15T15:24:33.859-06:00  INFO 8130 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-15T15:24:58.608-06:00  INFO 11491 --- [main] c.example.contacts.ContactsApplication   : Starting ContactsApplication using Java 17.0.2 with PID 11491 (/Users/dan/Documents/MountainCirque/PluralSight/2024-Boot3Playbook/demos/m6/after/contacts/target/classes started by dan in /Users/dan/Documents/MountainCirque/PluralSight/2024-Boot3Playbook/demos/m6/after/contacts)
+2024-04-15T15:24:58.611-06:00  INFO 11491 --- [main] c.example.contacts.ContactsApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T15:25:00.588-06:00  INFO 11491 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-15T15:25:00.673-06:00  INFO 11491 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2024-04-15T15:25:01.975-06:00  INFO 11491 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2024-04-15T15:25:01.987-06:00  INFO 11491 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-15T15:25:01.987-06:00  INFO 11491 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-04-15T15:25:02.145-06:00  INFO 11491 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-15T15:25:02.146-06:00  INFO 11491 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3413 ms
+2024-04-15T15:25:02.351-06:00  INFO 11491 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-15T15:25:02.509-06:00  INFO 11491 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:contactdb user=${DB_USERNAME}
+2024-04-15T15:25:02.512-06:00  INFO 11491 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-15T15:25:02.556-06:00  INFO 11491 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:contactdb'
+2024-04-15T15:25:02.868-06:00  INFO 11491 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-15T15:25:02.915-06:00  INFO 11491 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-04-15T15:25:02.921-06:00  INFO 11491 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-04-15T15:25:03.086-06:00  INFO 11491 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-04-15T15:25:03.224-06:00  INFO 11491 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-15T15:25:03.669-06:00  INFO 11491 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-04-15T15:25:04.230-06:00  INFO 11491 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-04-15T15:25:04.270-06:00  INFO 11491 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T15:25:04.720-06:00  WARN 11491 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-15T15:25:05.744-06:00  INFO 11491 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-04-15T15:25:05.905-06:00  INFO 11491 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2024-04-15T15:25:05.931-06:00  INFO 11491 --- [main] c.example.contacts.ContactsApplication   : Started ContactsApplication in 8.069 seconds (process running for 8.798)
+2024-04-15T15:25:47.312-06:00  INFO 11491 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-15T15:25:47.493-06:00  INFO 11491 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-15T15:25:47.499-06:00  INFO 11491 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
